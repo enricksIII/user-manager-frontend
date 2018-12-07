@@ -7,7 +7,9 @@
 		"dev-server": "webpack-dev-server",
 		"json:server": "json-server --watch db.json"
 	},
-	"keywords": [ "User-management-system" ],
+	"keywords": [
+		"User-management-system"
+	],
 	"author": "Adams Banjo",
 	"license": "ISC",
 	"dependencies": {
