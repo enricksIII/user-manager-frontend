@@ -4,16 +4,14 @@
 	"description": "Frontend for a User Management System built using React",
 	"main": "index.js",
 	"scripts": {
-		"start": "node server/server.js",
+		"start": "node server/db-server.js",
 		"build:dev": "webpack",
 		"build:prod": "webpack -p --env production",
 		"dev-server": "webpack-dev-server",
 		"json:server": "json-server --watch db.json",
-		"heroku-postbuild": "npm run build:prod && npm run json:server"
+		"heroku-postbuild": "npm run build:prod"
 	},
-	"keywords": [
-		"User-management-system"
-	],
+	"keywords": [ "User-management-system" ],
 	"author": "Adams Banjo",
 	"license": "ISC",
 	"dependencies": {
