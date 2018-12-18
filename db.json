@@ -63,6 +63,14 @@
       "age": "35",
       "groupId": "2",
       "id": "cKFFoyZ"
+    },
+    {
+      "firstName": "Faouzia",
+      "lastName": "Ghoulam",
+      "email": "faouzia@dev.test",
+      "age": "25",
+      "groupId": "8",
+      "id": "eKyWFTL"
     }
   ],
   "groups": [
@@ -100,6 +108,11 @@
       "id": "7",
       "name": "Antarctica",
       "description": "Speculation over the existence of a 'southern land' was not confirmed until the early 1820s when British and American commercial operators and British and Russian national expeditions began exploring the Antarctic Peninsula region and other areas south of the Antarctic Circle. Not until 1840 was it established that Antarctica was indeed a continent and not merely a group of islands or an area of ocean."
+    },
+    {
+      "id": "8",
+      "name": "Arabians",
+      "description": "Consisting majorly of vast arid lands but extremely rich in petroleum resources. Majorly muslim population"
     }
   ]
 }

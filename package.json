@@ -4,8 +4,12 @@
 	"description": "Frontend for a User Management System built using React",
 	"main": "index.js",
 	"scripts": {
+		"start": "node server/server.js",
+		"build:dev": "webpack",
+		"build:prod": "webpack -p --env production",
 		"dev-server": "webpack-dev-server",
-		"json:server": "json-server --watch db.json"
+		"json:server": "json-server --watch db.json",
+		"heroku-postbuild": "npm run build:prod && npm run json:server"
 	},
 	"keywords": [
 		"User-management-system"
@@ -26,6 +30,7 @@
 		"express": "^4.16.4",
 		"json-server": "^0.14.0",
 		"live-server": "^1.2.0",
+		"mini-css-extract-plugin": "^0.5.0",
 		"node-sass": "^4.10.0",
 		"normalize.css": "^8.0.1",
 		"react": "^16.6.3",
