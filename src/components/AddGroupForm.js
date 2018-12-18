@@ -1,6 +1,6 @@
-import React from 'react';
+import React, { PureComponent } from 'react';
 
-export default class AddGroupForm extends React.Component {
+export default class AddGroupForm extends PureComponent {
 	state = {
 		error: undefined
 	};

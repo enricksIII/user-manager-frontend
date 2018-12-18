@@ -1,8 +1,8 @@
-import React from 'react';
+import React, { PureComponent } from 'react';
 import Users from './Users';
 import Groups from './Groups';
 
-export default class HomePage extends React.Component {
+export default class HomePage extends PureComponent {
 	constructor(props) {
 		super(props);
 	}

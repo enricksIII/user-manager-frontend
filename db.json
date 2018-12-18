@@ -1,97 +1,105 @@
 {
-	"users": [
-		{
-			"id": "1",
-			"firstName": "John",
-			"lastName": "Doe",
-			"email": "john@gmail.com",
-			"age": 34,
-			"groupId": "1"
-		},
-		{
-			"id": "2",
-			"firstName": "Mark",
-			"lastName": "Williams",
-			"email": "mark@gmail.com",
-			"age": 33,
-			"groupId": "1"
-		},
-		{
-			"id": "3",
-			"firstName": "Sara",
-			"lastName": "Smith",
-			"email": "sara@gmail.com",
-			"age": 23,
-			"groupId": "2"
-		},
-		{
-			"firstName": "Brad",
-			"lastName": "Traversy",
-			"age": 35,
-			"email": "test@test.com",
-			"groupId": "3",
-			"id": "B1Ww3BIS-"
-		},
-		{
-			"firstName": "Adams",
-			"lastName": "Banjo",
-			"email": "sajioloye@gmail.com",
-			"age": "26",
-			"groupId": "2",
-			"id": "QAV2v9K"
-		},
-		{
-			"firstName": "Elon",
-			"lastName": "Musk",
-			"email": "elon@tesla.com",
-			"age": "45",
-			"groupId": "3",
-			"id": "c_nQvrT"
-		},
-		{
-			"firstName": "Adams",
-			"lastName": "Tesla",
-			"email": "sajioloye@gmail.com",
-			"age": "45",
-			"groupId": "5",
-			"id": "7oEbFlC"
-		}
-	],
-	"groups": [
-		{
-			"id": "1",
-			"name": "Nigerians",
-			"description": "British influence and control over what would become Nigeria and Africa's most populous country grew through the 19th century. A series of constitutions after World War II granted Nigeria greater autonomy. After independence in 1960, politics were marked by coups and mostly military rule, until the death of a military head of state in 1998 allowed for a political transition. In 1999, a new constitution was adopted and a peaceful transition to civilian government was completed."
-		},
-		{
-			"id": "2",
-			"name": "Germans",
-			"description": "As Europe's largest economy and second most populous nation (after Russia), Germany is a key member of the continent's economic, political, and defense organizations. European power struggles immersed Germany in two devastating world wars in the first half of the 20th century and left the country occupied by the victorious Allied powers of the US, UK, France, and the Soviet Union in 1945."
-		},
-		{
-			"id": "3",
-			"name": "New Zealandians",
-			"description": "The Polynesian Maori reached New Zealand sometime between A.D. 1250 and 1300. In 1840, their chieftains entered into a compact with Britain, the Treaty of Waitangi, in which they ceded sovereignty to Queen Victoria while retaining territorial rights. That same year, the British began the first organized colonial settlement. A series of land wars between 1843 and 1872 ended with the defeat of the native peoples."
-		},
-		{
-			"id": "4",
-			"name": "Canadians",
-			"description": "A land of vast distances and rich natural resources, Canada became a self-governing dominion in 1867, while retaining ties to the British crown. Canada repatriated its constitution from the UK in 1982, severing a final colonial tie. Economically and technologically, the nation has developed in parallel with the US, its neighbor to the south across the world's longest international border."
-		},
-		{
-			"id": "5",
-			"name": "Colombians",
-			"description": "Colombia was one of the three countries that emerged after the dissolution of Gran Colombia in 1830 (the others are Ecuador and Venezuela). A decades-long conflict between government forces, paramilitaries, and antigovernment insurgent groups heavily funded by the drug trade, principally the Revolutionary Armed Forces of Colombia (FARC), escalated during the 1990s. More than 31,000 former United Self Defense Forces of Colombia (AUC) paramilitaries demobilized by the end of 2006, and the AUC as a formal organization ceased to operate. In the wake of the paramilitary demobilization, illegal armed groups arose, whose members include some former paramilitaries."
-		},
-		{
-			"id": "6",
-			"name": "Japanese",
-			"description": "In 1603, after decades of civil warfare, the Tokugawa shogunate (a military-led, dynastic government) ushered in a long period of relative political stability and isolation from foreign influence. For more than two centuries this policy enabled Japan to enjoy a flowering of its indigenous culture. Japan opened its ports after signing the Treaty of Kanagawa with the US in 1854 and began to intensively modernize and industrialize. During the late 19th and early 20th centuries, Japan became a regional power that was able to defeat the forces of both China and Russia."
-		},
-		{
-			"id": "7",
-			"name": "Antarctica",
-			"description": "Speculation over the existence of a 'southern land' was not confirmed until the early 1820s when British and American commercial operators and British and Russian national expeditions began exploring the Antarctic Peninsula region and other areas south of the Antarctic Circle. Not until 1840 was it established that Antarctica was indeed a continent and not merely a group of islands or an area of ocean."
-		}
-	]
+  "users": [
+    {
+      "id": "2",
+      "firstName": "Mark",
+      "lastName": "Williams",
+      "email": "mark@gmail.com",
+      "age": 33,
+      "groupId": "1"
+    },
+    {
+      "id": "3",
+      "firstName": "Sara",
+      "lastName": "Smith",
+      "email": "sara@gmail.com",
+      "age": 23,
+      "groupId": "2"
+    },
+    {
+      "firstName": "Brad",
+      "lastName": "Traversy",
+      "age": 35,
+      "email": "test@test.com",
+      "groupId": "3",
+      "id": "B1Ww3BIS-"
+    },
+    {
+      "firstName": "Adams",
+      "lastName": "Banjo",
+      "email": "sajioloye@gmail.com",
+      "age": "26",
+      "groupId": "2",
+      "id": "QAV2v9K"
+    },
+    {
+      "firstName": "Elon",
+      "lastName": "Musk",
+      "email": "elon@tesla.com",
+      "age": "45",
+      "groupId": "3",
+      "id": "c_nQvrT"
+    },
+    {
+      "firstName": "Adams",
+      "lastName": "Tesla",
+      "email": "sajioloye@gmail.com",
+      "age": "45",
+      "groupId": "5",
+      "id": "7oEbFlC"
+    },
+    {
+      "firstName": "Anisat",
+      "lastName": "Waris",
+      "email": "anybebe@dev.test",
+      "age": "45",
+      "groupId": "7",
+      "id": "fXPyFsa"
+    },
+    {
+      "firstName": "Craig",
+      "lastName": "Patik",
+      "email": "craig@internations.com",
+      "age": "35",
+      "groupId": "2",
+      "id": "cKFFoyZ"
+    }
+  ],
+  "groups": [
+    {
+      "id": "1",
+      "name": "Nigerians",
+      "description": "British influence and control over what would become Nigeria and Africa's most populous country grew through the 19th century. A series of constitutions after World War II granted Nigeria greater autonomy. After independence in 1960, politics were marked by coups and mostly military rule, until the death of a military head of state in 1998 allowed for a political transition. In 1999, a new constitution was adopted and a peaceful transition to civilian government was completed."
+    },
+    {
+      "id": "2",
+      "name": "Germans",
+      "description": "As Europe's largest economy and second most populous nation (after Russia), Germany is a key member of the continent's economic, political, and defense organizations. European power struggles immersed Germany in two devastating world wars in the first half of the 20th century and left the country occupied by the victorious Allied powers of the US, UK, France, and the Soviet Union in 1945."
+    },
+    {
+      "id": "3",
+      "name": "New Zealandians",
+      "description": "The Polynesian Maori reached New Zealand sometime between A.D. 1250 and 1300. In 1840, their chieftains entered into a compact with Britain, the Treaty of Waitangi, in which they ceded sovereignty to Queen Victoria while retaining territorial rights. That same year, the British began the first organized colonial settlement. A series of land wars between 1843 and 1872 ended with the defeat of the native peoples."
+    },
+    {
+      "id": "4",
+      "name": "Canadians",
+      "description": "A land of vast distances and rich natural resources, Canada became a self-governing dominion in 1867, while retaining ties to the British crown. Canada repatriated its constitution from the UK in 1982, severing a final colonial tie. Economically and technologically, the nation has developed in parallel with the US, its neighbor to the south across the world's longest international border."
+    },
+    {
+      "id": "5",
+      "name": "Colombians",
+      "description": "Colombia was one of the three countries that emerged after the dissolution of Gran Colombia in 1830 (the others are Ecuador and Venezuela). A decades-long conflict between government forces, paramilitaries, and antigovernment insurgent groups heavily funded by the drug trade, principally the Revolutionary Armed Forces of Colombia (FARC), escalated during the 1990s. More than 31,000 former United Self Defense Forces of Colombia (AUC) paramilitaries demobilized by the end of 2006, and the AUC as a formal organization ceased to operate. In the wake of the paramilitary demobilization, illegal armed groups arose, whose members include some former paramilitaries."
+    },
+    {
+      "id": "6",
+      "name": "Japanese",
+      "description": "In 1603, after decades of civil warfare, the Tokugawa shogunate (a military-led, dynastic government) ushered in a long period of relative political stability and isolation from foreign influence. For more than two centuries this policy enabled Japan to enjoy a flowering of its indigenous culture. Japan opened its ports after signing the Treaty of Kanagawa with the US in 1854 and began to intensively modernize and industrialize. During the late 19th and early 20th centuries, Japan became a regional power that was able to defeat the forces of both China and Russia."
+    },
+    {
+      "id": "7",
+      "name": "Antarctica",
+      "description": "Speculation over the existence of a 'southern land' was not confirmed until the early 1820s when British and American commercial operators and British and Russian national expeditions began exploring the Antarctic Peninsula region and other areas south of the Antarctic Circle. Not until 1840 was it established that Antarctica was indeed a continent and not merely a group of islands or an area of ocean."
+    }
+  ]
 }

@@ -1,9 +1,7 @@
 import React from 'react';
 
-class ProfileImage extends React.Component {
-	render() {
-		return <div className="profileImg">{this.props.children}</div>;
-	}
-}
+const ProfileImage = (props) => {
+	return <div className="profileImg">{props.children}</div>;
+};
 
 export default ProfileImage;

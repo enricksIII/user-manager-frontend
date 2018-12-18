@@ -3,10 +3,10 @@ import User from './User';
 
 const Users = (props) => (
 	<div>
-		{props.users.map((user, index) => {
+		{props.users.map((user) => {
 			return (
 				<User
-					key={index}
+					key={user.id}
 					firstName={user.firstName}
 					lastName={user.lastName}
 					age={user.age}

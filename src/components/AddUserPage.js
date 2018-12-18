@@ -1,7 +1,7 @@
-import React from 'react';
+import React, { PureComponent } from 'react';
 import AddUserForm from './AddUserForm';
 
-export default class AddUserPage extends React.Component {
+export default class AddUserPage extends PureComponent {
 	handleAddUser = (user) => {
 		if (!user) {
 			return 'Enter user details to create a new user';

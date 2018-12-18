@@ -1,9 +1,9 @@
-import React from 'react';
+import React, { PureComponent } from 'react';
 import { Link } from 'react-router-dom';
 import User from './User';
 import ProfileImage from './ProfileImage';
 
-class UserDetails extends React.Component {
+class UserDetails extends PureComponent {
 	constructor(props) {
 		super(props);
 	}

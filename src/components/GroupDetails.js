@@ -1,8 +1,8 @@
-import React from 'react';
+import React, { PureComponent } from 'react';
 import { Link } from 'react-router-dom';
 import User from './User';
 
-class GroupDetails extends React.Component {
+class GroupDetails extends PureComponent {
 	constructor(props) {
 		super(props);
 	}

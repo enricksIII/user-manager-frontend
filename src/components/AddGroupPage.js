@@ -1,7 +1,7 @@
-import React from 'react';
+import React, { PureComponent } from 'react';
 import AddGroupForm from './AddGroupForm';
 
-export default class AddGroupPage extends React.Component {
+export default class AddGroupPage extends PureComponent {
 	handleAddGroup = (group) => {
 		if (!group) {
 			return 'Enter group details to create a new group';
